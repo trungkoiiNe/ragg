@@ -1,0 +1,12 @@
+streamlit>=1.30.0
+pandas
+numpy
+python-dotenv
+requests
+supabase>=2.0.0
+uuid
+PyPDF2>=3.0.0
+docx2txt
+httpx
+langchain
+langchain-text-splitters
