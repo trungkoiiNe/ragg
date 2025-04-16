@@ -122,7 +122,7 @@ with st.sidebar:
     # Model selection
     model = st.selectbox(
         "Model", 
-        ["meta-llama/llama-3-8b-instruct:free"], 
+        ["meta-llama/llama-3.2-11b-vision-instruct:free"], 
         index=0,
         help="The AI model used for generating responses"
     )
@@ -276,7 +276,7 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.write(message["content"])
 
-# Chat input
+# Chat inputmodel
 if prompt := st.chat_input("Ask something..."):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})

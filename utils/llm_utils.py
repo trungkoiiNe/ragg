@@ -76,7 +76,7 @@ Don't explicitly mention that you're using context in your response unless asked
     
     # Prepare the request payload according to OpenRouter chat completions API
     data = {
-        "model": "meta-llama/llama-3-8b-instruct:free",
+        "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,
